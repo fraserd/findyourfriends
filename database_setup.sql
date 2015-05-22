@@ -1,0 +1,1 @@
+CREATE TABLE locations (id SERIAL, client TEXT, latitude DOUBLE PRECISION, longitude DOUBLE PRECISION, altitude DOUBLE PRECISION, horizontalAccuracy DOUBLE PRECISION, verticalAccuracy DOUBLE PRECISION, time TIMESTAMPTZ);
