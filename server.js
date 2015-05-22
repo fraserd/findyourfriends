@@ -26,11 +26,12 @@ var log = bunyan.createLogger({
             level: 'info',
             stream: process.stdout
         },
-        {
+        // FIXME: this logging to a file is not working with heroku, so disabling it for now
+        /*{
             level: 'info',
             path: './log/server.log',
             type: 'file'
-        }
+        }*/
     ]
 });
 
